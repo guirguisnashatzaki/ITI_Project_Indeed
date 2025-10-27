@@ -14,6 +14,7 @@ public class Login_Test {
 
     //Variables
     WebDriver driver;
+    String baseUrl = "https://www.saucedemo.com/v1/";
 
     //Configuration
     @BeforeTest
@@ -21,7 +22,7 @@ public class Login_Test {
         EdgeOptions options = new EdgeOptions();
         options.addArguments("--start-maximized");
         driver = new EdgeDriver(options);
-        driver.get("https://www.saucedemo.com/v1/");
+        driver.get(baseUrl);
     }
 
     @AfterTest
