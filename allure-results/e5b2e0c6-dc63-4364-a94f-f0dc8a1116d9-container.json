@@ -1,0 +1,1 @@
+{"uuid":"e5b2e0c6-dc63-4364-a94f-f0dc8a1116d9","name":"Dina.SearchPageTest.setup","children":["ea3cfc83-651c-40b4-810d-bb1297bf2caf"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1761777032090,"stop":1761777378494}],"afters":[],"start":1761777032089,"stop":1761777378497}
